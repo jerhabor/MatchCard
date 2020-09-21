@@ -6,25 +6,34 @@
     <title>MatchCard</title>
 </head>
 <body>
-    <h1 class="page-title">MatchCard</h1>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 left-container">
+            <div class="col-xs-12 col-lg-4 left-container">
+                <h1 class="page-title">MatchCard</h1>
                 <div class="game-controls">
                     Testing testing
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 right-container">
-                <div class="col-12 game-info-container">
-                    <div class="game-info">
-                        Time <span id="time-remaining">100</span>
-                    </div>
-                    <div class="game-info">
-                        Flips <span id="flips">0</span>
-                    </div>
+            <div class="col-xs-12 col-lg-8 right-container">
+                <div class="col-xs-6 col-lg-4 game-info-time">
+                    Time <span id="time-remaining">100</span>
                 </div>
-                <div class="col-12 game-container">
-                    <div class="card"></div>
+                <div class="col-xs-6 col-lg-4 game-info-flips">
+                    Flips <span id="flips">0</span>
+                </div>
+                <div class="col-xs-12 col-lg-8 game-container">
+                    <div class="card">
+                        <div class="card-back card-face">
+                            <img src="Assets/Images/Cobweb.png" alt="" class="cob-web cob-web-top-left">
+                            <img src="Assets/Images/Cobweb.png" alt="" class="cob-web cob-web-top-right">
+                            <img src="Assets/Images/Cobweb.png" alt="" class="cob-web cob-web-bottom-left">
+                            <img src="Assets/Images/Cobweb.png" alt="" class="cob-web cob-web-bottom-right">
+                            <img src="Assets/Images/Spider.png" alt="" class="spider">
+                        </div>
+                        <div class="card-front card-face">
+                        
+                        </div>
+                    </div>
                     <div class="card"></div>
                     <div class="card"></div>
                     <div class="card"></div>
@@ -44,7 +53,6 @@
             </div>
         </div>
     </div>
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
