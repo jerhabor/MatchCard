@@ -26,35 +26,65 @@ body {
     font-family: Creepy, serif;
     font-weight: normal;
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
     margin-top: 10px;
 }
 
-.game-info-container {
-    grid-column: 1 / -1;
-    display: flex;
-    justify-content: space-between;
-}
-
-.game-info {
+.game-info-time {
     font-family: Lunacy, serif;
     color: #FFBB89;
     font-size: 2em;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.game-info-flips {
+    font-family: Lunacy, serif;
+    color: #FFBB89;
+    font-size: 2em;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .game-container {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 15px;
+    padding: 15px;
     justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+    padding-top: 10px;
+    display: inline-block;
 }
 
 .right-container {
-    padding: 0px 50px;
+    padding-top: 10px;
+    display: inline-block;
 }
 
 .card {
-    background-color: black;
-    height: 115px;
-    width: 90px;
+    position: relative;
+    background-color: #000000;
+    height: 8em;
+    width: 6.5em;
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cob-web {
+    position: absolute;
+    width: 47px;
+    height: 47px;
 }
